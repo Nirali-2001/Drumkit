@@ -1,0 +1,75 @@
+ *{
+    font-family: "REM", sans-serif;
+ }
+ 
+ 
+ body
+ {
+    text-align: center;
+    display: grid;
+    background-color:thistle;
+    place-content: center;
+    min-height: 100vh;
+    font-family: "Playwrite DE Grund", cursive;
+    
+}
+
+h1{
+    color: cornflowerblue;
+   font-family: "DM Serif Display", serif;
+    margin: auto;
+    transition: 0.50s;
+}
+
+h1:hover{
+    color: darkkhaki;
+}
+
+.fa-drum{
+    transform: scale3d(1.0);
+    margin: 0,0.5rem;
+}
+
+#Drumkit{
+    text-align: center;
+    color: gray;
+    margin: 1rem auto;
+}
+
+h2{
+    margin: auto;
+}
+
+i{
+    font-weight: bold;
+}
+
+a,
+a:visited{
+    color: plum;
+}
+
+.element{
+    display:inline-grid ;
+    place-content: center;
+    border-radius: 0.5rem;
+    height: 10vmax;
+    width: 10vmax;
+    cursor: pointer;
+    margin: 1.5vmax;
+    padding:1.5vmax 2.5vmax ;
+    transition: 0.25s;
+    box-shadow: 15px 15px 25px #e0e0e0, -15px -15px  25px whitesmoke  ;
+
+}
+
+.active{
+    background-color: orange;
+    transition: 0.15s;
+    transform: scale(1.0);
+
+}
+
+.about{
+    margin: 0.5rem auto;
+}
